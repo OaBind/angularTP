@@ -4,6 +4,7 @@ import {AuthenticationService} from './services/authentication/authentication.se
 import {FooterComponent} from './components/footer/footer.component';
 import {CommonModule} from '@angular/common';
 import { AdminHomeComponent } from './components/admin-home/admin-home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { AdminHomeComponent } from './components/admin-home/admin-home.component
     AdminHomeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
   exports: [
     FooterComponent,

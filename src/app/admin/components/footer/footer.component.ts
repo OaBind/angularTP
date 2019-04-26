@@ -27,8 +27,8 @@ export class FooterComponent implements OnChanges, OnInit, AfterViewInit, AfterC
     });
   }
 
-  isFirstNameToto(value: string): boolean {
-    return (value === 'Toto') ? true : false;
+  isFirstNameToto(value: string)/*: boolean*/ {
+    //return (value === 'Toto') ? true : false;
   }
 
   getLastName(): string {
@@ -36,22 +36,22 @@ export class FooterComponent implements OnChanges, OnInit, AfterViewInit, AfterC
   }
 
   ngAfterContentChecked(): void {
-    console.log('ngAfterContentChecked');
+    //console.log('ngAfterContentChecked');
   }
 
   ngAfterContentInit(): void {
-    console.log('ngAfterContentInit');
+    //console.log('ngAfterContentInit');
   }
 
   ngAfterViewInit(): void {
-    console.log('ngAfterViewInit');
+    //console.log('ngAfterViewInit');
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    console.log('ngOnChanges');
+    //console.log('ngOnChanges');
   }
 
   ngOnInit(): void {
-    console.log('ngOnInit');
+    //console.log('ngOnInit');
   }
 }

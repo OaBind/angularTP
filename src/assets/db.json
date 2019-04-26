@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Brock",
+      "lastname": "Lesnar",
+      "isAdmin": false
+    },
+    {
+      "id": 2,
+      "firstname": "Conor",
+      "lastname": "McGregor",
+      "isAdmin": true
+    },
+    {
+      "id": 3,
+      "firstname": "Anthony",
+      "lastname": "Pettis",
+      "isAdmin": false
+    },
+    {
+      "id": 4,
+      "firstname": "Kabib",
+      "lastname": "Nurmagomedov",
+      "isAdmin": false
+    },
+    {
+      "id": 5,
+      "firstname": "Stipe",
+      "lastname": "Miocic",
+      "isAdmin": true
+    },
+    {
+      "id": 6,
+      "firstname": "Daniel",
+      "lastname": "Cormier",
+      "isAdmin": true
+    }
+  ]
+}
