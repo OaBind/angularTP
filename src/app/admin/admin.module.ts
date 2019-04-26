@@ -3,17 +3,20 @@ import { HeaderComponent } from './components/header/header.component';
 import {AuthenticationService} from './services/authentication/authentication.service';
 import {FooterComponent} from './components/footer/footer.component';
 import {CommonModule} from '@angular/common';
+import { AdminHomeComponent } from './components/admin-home/admin-home.component';
 
 @NgModule({
   declarations: [
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    AdminHomeComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    FooterComponent
+    FooterComponent,
+    AdminHomeComponent
   ],
   providers: [
     AuthenticationService
